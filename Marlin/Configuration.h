@@ -1636,8 +1636,8 @@
 // @section machine
 
 // Invert the stepper direction. Change (or reverse the motor connector) if an axis goes the wrong way.
-#define INVERT_X_DIR false
-#define INVERT_Y_DIR true
+#define INVERT_X_DIR true
+#define INVERT_Y_DIR false
 #define INVERT_Z_DIR true
 //#define INVERT_I_DIR false
 //#define INVERT_J_DIR false
@@ -3340,3 +3340,4 @@
 #define SHORT_BUILD_VERSION "515DL 2.1.1"
 #define USER_DESC_4 "Probe Z min"
 #define USER_GCODE_4 "G38.2 Z0"
+#define DIAG_JUMPERS_REMOVED 
